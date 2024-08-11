@@ -11,6 +11,7 @@ import hashlib
 if __name__=='__main__' :
     if len(sys.argv) !=3 :
         print("Usage: ./markdown2html.py README.md README.html", file=sys.stderr)
+        exit(0)
 
     filname_input=sys.argv[1]
     filename_outbut=sys.argv[2]
