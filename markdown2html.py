@@ -18,6 +18,6 @@ if __name__=='__main__' :
     if not os.path.exists(filname_input) :
         print(f"Missing {filname_input}",file=sys.stderr )
         sys.exit(1)
-    else
+    else :
         print("hello")
 
