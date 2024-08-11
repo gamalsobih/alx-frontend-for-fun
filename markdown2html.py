@@ -20,5 +20,5 @@ if __name__=='__main__' :
         print(f"Missing {filname_input}",file=sys.stderr )
         sys.exit(1)
     else:
-        print("hello")
+        print("")
 
