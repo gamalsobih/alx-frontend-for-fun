@@ -1,4 +1,37 @@
+Skip to content
+Navigation Menu
+IamNaeto
+/
+alx-frontend-for-fun
 
+Type / to search
+Code
+Issues
+Pull requests
+Actions
+Projects
+Security
+Insights
+Breadcrumbsalx-frontend-for-fun/flexbox
+/0-styles.css
+Go to file
+t
+Latest commit
+IamNaeto
+IamNaeto
+Add display flex
+4e1f3f1
+ · 
+last year
+History
+Breadcrumbsalx-frontend-for-fun/flexbox
+/0-styles.css
+File metadata and controls
+
+Code
+
+Blame
+500 lines (405 loc) · 12.3 KB
 /* SUMMARY
     1. GLOBAL
     2. LAYOUT
@@ -180,15 +213,17 @@
   
   /* Grid
       ============================= */
-  .row{
+  
+  .row {
     display: flex;
-  }
+  }    
+
   ul.row {
     margin: 0;
     padding: 0;
     list-style: none;
   }
-    
+  
   [class*='col-'] {
     padding: 0.5rem;
   }
@@ -256,9 +291,9 @@
   
   .header {
     padding: var(--header-padding);
-         position: relative;
-         z-index: 3;
-         background: transparent;
+    position: relative;
+    z-index: 3;
+    background: transparent;
   }
   
   .header-logo {
@@ -497,3 +532,4 @@
     font-size: 10rem;
     z-index: -1;
   }
+ 
